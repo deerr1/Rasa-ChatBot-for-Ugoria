@@ -1,0 +1,42 @@
+version: "2.0"
+
+stories:
+- story: приветствие
+  steps:
+  - intent: Приветсвие
+  - action: utter_Приветствие
+
+- story: прощание
+  steps:
+  - intent: Прощание
+  - action: utter_Прощание
+
+- story: Проблемы с записью флешкой
+  steps:
+  - intent: Проблемы_с_записью_флешкой
+  - action: utter_Проблемы_с_записью_флешкой
+  
+- story: Проблемы с входом
+  steps:
+  - intent: Проблемы_с_входом
+  - action: utter_Проблемы_с_входом
+  
+- story: Проблемы с установкой программы
+  steps:
+  - intent: Проблемы_с_установкой_программы
+  - action: utter_Проблемы_с_установкой_программы
+  
+- story: Проблемы с работой программы
+  steps:
+  - intent: Проблемы_с_работой_программы
+  - action: utter_Проблемы_с_работой_программы
+  
+- story: Проблемы с компом
+  steps:
+  - intent: Проблемы_с_компом
+  - action: utter_Проблемы_с_компом
+  
+- story: флуд
+  steps:
+  - intent: out_of_scope
+  - action: utter_out_of_scope
